@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> w3schools </title>
+    <link rel="stylesheet" href="w3style.css">
+</head>
+<body>
+    <div class="para1">
+    <img class="pic1" src="W3Schools_logo.svg.png" alt="W3Schools_logo" height="36px" width="38px">
+
+    <p>Tutorials</p> <!--font=roboto-->
+    <p>References</p>
+    <p>Exercises</p>
+    <p>Certificates</p>
+
+    <input type="search" class="search" id="search" name="search" placeholder="Search...">
+    <div class="dots"> &#8942; </div>
+
+    <div class="para2">
+    <p>Bootcamps</p>
+    <p>Spaces</p>
+    <p>Teachers</p>
+    <p>Upgrade</p>
+    <p>Get Certified</p>
+    <button class="signin">Sign In</button>
+    </div>
+    </div>
+
+    <div class="languages">
+    <p style="padding-left: 12px; margin: 8px;">HTML CSS JAVASCRIPT SQL PYTHON JAVA PHP W3.CSS C C++ C# BOOTSTRAP REACT MYSQL JQUERY EXCEL XML 
+        NUMPY PANDAS NODEJS TYPESCRIPT ANGULAR GIT MONGODB ASP </p>
+    </div>   
+
+    <div class="learn-to-code">
+        <p class="code">Learn to Code</p>
+        <p class="developer">With the world's largest web developer site.</p> 
+        <input type="search" class="search1" name="search" placeholder="Search our tutorials, e.g. HTML">
+    </div>
+
+    
+
+</body>
+</html>
