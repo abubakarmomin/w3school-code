@@ -1,0 +1,143 @@
+
+body {margin: 0;
+padding: 0;
+}
+
+div.para1 {
+    font-family: 'Calibri';
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    margin: 11px; 
+    position: relative;
+    top: -22px;   
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+input.search{
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 18px;
+    padding: 8px;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+
+input.search:hover{
+    background-color: rgb(215, 210, 210);
+    border: 5px solid rgb(0, 182, 57);    
+} 
+
+div.dots{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: -15px;
+    cursor: pointer;
+}
+
+div.para2 {
+    font-family: 'Calibri';
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    margin: 11px;
+    position:relative;
+    top: 0px;
+    left: 107px;
+    font-size: 17px;
+}
+
+button.signin {
+    padding: 10px;
+    width: 95px;
+    background-color: #04A96E;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Calibri';
+    cursor: pointer;
+}
+
+button.signin:hover {
+    background-color: #008154;
+}
+
+div.languages{
+    font-family: 'calibri';
+    position: relative;
+    top:-48px;
+    background-color: rgb(57, 51, 71); 
+    color: rgb(255, 255, 255);
+    word-spacing: 35px;
+    cursor: pointer;
+    overflow-x: auto;
+    white-space: nowrap;
+    display:flex;
+    
+}
+
+div.languages:link {
+    color: rgb(255, 255, 255);
+}
+div.languages:visited {
+    color: rgb(255, 255, 255);
+}
+
+div.languages:hover{
+    background-color: black;
+}
+div.languages:active{
+    background-color: tomato;
+    color: rgb(21, 0, 155);
+}
+
+div.learn-to-code{
+    
+    background-color: rgb(57, 51, 71);
+    padding: 200px;
+    margin: auto;
+    position:relative;
+    bottom: 50px;
+}
+
+p.code{
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+p.developer{
+        position: relative;
+        bottom: 260px;
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 28px;
+        font-weight: bold;
+        color: rgb(202, 224, 107);
+}
+
+input.search1{
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 30px;
+    padding: 13px;
+    font-size: 15px;
+    width: 500px;
+    position: relative;
+    bottom: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    
+}
