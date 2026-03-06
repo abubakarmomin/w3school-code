@@ -13,7 +13,7 @@
     <p>Tutorials</p> <!--font=roboto-->
     <p>References</p>
     <p>Exercises</p>
-    <p>Certificates</p>
+    <p>Certificates</p> 
 
     <input type="search" class="search" id="search" name="search" placeholder="Search...">
     <div class="dots"> &#8942; </div>
@@ -29,14 +29,14 @@
     </div>
 
     <div class="languages">
-    <p style="padding-left: 12px; margin: 8px;">HTML CSS JAVASCRIPT SQL PYTHON JAVA PHP W3.CSS C C++ C# BOOTSTRAP REACT MYSQL JQUERY EXCEL XML 
-        NUMPY PANDAS NODEJS TYPESCRIPT ANGULAR GIT MONGODB ASP </p>
+    <p style="padding-left: 12px; margin: 8px;">HTML CSS JAVASCRIPT SQL PYTHON JAVA PHP W3.CSS C C++ C# BOOTSTRAP REACT MYSQL JQUERY EXCEL XML NUMPY PANDAS NODEJS TYPESCRIPT ANGULAR GIT MONGODB ASP </p>
     </div>   
 
     <div class="learn-to-code">
         <p class="code">Learn to Code</p>
         <p class="developer">With the world's largest web developer site.</p> 
         <input type="search" class="search1" name="search" placeholder="Search our tutorials, e.g. HTML">
+        <a class="start_begin" href="#">Not Sure Where To Begin?</a>
     </div>
 
     
