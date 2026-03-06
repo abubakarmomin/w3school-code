@@ -12,8 +12,15 @@ div.para1 {
     position: relative;
     top: -22px;   
     font-size: 17px;
-    cursor: pointer;
-    
+    cursor: pointer;   
+    height: 80px;
+}
+
+div.para1 p:hover{
+    font-weight: bold;
+    background-color:#04A96E;
+    color: white;
+    padding: 11px 0;
 }
 
 input.search{
@@ -21,13 +28,12 @@ input.search{
     border-radius: 18px;
     padding: 8px;
     font-size: 15px;
-    font-style: italic;
-    
+    font-style: italic;     
 }
 
 input.search:hover{
     background-color: rgb(215, 210, 210);
-    border: 5px solid rgb(0, 182, 57);    
+    border: 3px solid rgb(0, 182, 57);    
 } 
 
 div.dots{
@@ -75,7 +81,7 @@ div.languages{
     color: rgb(255, 255, 255);
     word-spacing: 35px;
     cursor: pointer;
-    overflow-x: auto;
+    overflow-x: hidden;
     white-space: nowrap;
     display:flex;
     
@@ -136,8 +142,19 @@ input.search1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-
-    
+    margin: 0 310px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+a.start_begin{
+    color: white;
+        font-weight: bold;
+        font-size: 25px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: -220px;
+        font-family: 'Source Sans Pro',sans-serif;
+    }
+
